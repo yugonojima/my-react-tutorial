@@ -1,13 +1,13 @@
-import React from 'react';
-import Board from './Board';
-import './Game.css'
+import React from "react";
+import Board from "./Board";
+import "./Game.css";
 
 class Game extends React.Component {
   render() {
-    return(
+    return (
       <div className="game">
         <div className="game-board">
-          <Board/>
+          <Board />
         </div>
         <div className="game-info">
           <div>{/*status*/}</div>
@@ -18,5 +18,4 @@ class Game extends React.Component {
   }
 }
 
-
-export default Game
+export default Game;
